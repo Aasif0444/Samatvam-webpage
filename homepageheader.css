@@ -37,10 +37,10 @@
     width: 200px;
 }
 
-.home,
-.games,
-.parent-guidance,
-.about{
+.home a,
+.games a,
+.parent-guidance a,
+.about a{
     color: rgb(40, 40, 40);
     background-color: white;
     font-size: 17px;
@@ -48,7 +48,13 @@
     border-bottom-style: solid;
     border-bottom-width: 1px;
     font-family: 'Poppins', sans-serif;
+    padding-bottom: 15px;
+    text-decoration: none;
     cursor: pointer;
+}
+button{
+    border: none;
+  
 }
 .login{
     color: white;
@@ -81,11 +87,15 @@ header{
     width: 300px;
 }
 .header-image-1{
-    margin-left: 50px;
-    margin-right: 100px;
+    margin-left: 23px;
+    margin-right: 220px;
     border-radius: 50px;
     display: inline-block;
-    width: 1000px;
+    width: 800px;
+}
+
+.header-left-side{
+    margin-left: 150px;
 }
 
 .header-image-2{
@@ -97,12 +107,26 @@ header{
 .header-image-3{
     width: 500px;
 }
-
+.header-image-4{
+    width: 600px;
+    margin-top: 45px;
+    margin-left: 106px;
+}
 
 p{  
     font-family: "SUSE", sans-serif;
     font-size: 16px;
     margin: 40px;
 }
+
+@media (max-width :500px){
+
+    body{
+        background-color: pink;
+    }
+}
+
+
+
 
 
