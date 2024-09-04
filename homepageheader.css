@@ -1,0 +1,138 @@
+
+.header{
+    display: flex;
+    height: 100px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-color: gray;
+    border-style: solid;
+    border-bottom-width: 1px;
+   
+}
+.left-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle-section{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-section{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    align-items: center;
+}
+
+.header-logo{
+    margin-left: 85px;
+    width: 200px;
+}
+
+.nav-button a{
+    color: rgb(40, 40, 40);
+    background-color: white;
+    font-size: 17px;
+    border: grey;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.nav-button:hover a {
+    color: darkgray;
+}   
+button{
+    border: none;
+  
+}
+.login{
+    color: white;
+    background-color: #17252A;
+    width: 109px;
+    height: 53px;
+    border: solid;
+    border-color: #17252A;
+    border-radius: 2px;
+    border-radius: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.5s;
+
+}
+.login:hover{
+    background-color: #ffffff;
+    color: #17252A;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.card-image img{
+   border-radius: 30px;
+}
+.card-info{
+    width: 300px;
+}
+.header-image-1{
+    margin-left: 23px;
+    margin-right: 220px;
+    border-radius: 50px;
+    display: inline-block;
+    width: 800px;
+}
+
+.header-left-side{
+    margin-left: 150px;
+}
+
+.header-image-2{
+    display: inline-block;
+    width: 500px;
+    border-radius: 50px;
+}
+
+.header-left-side video{
+    width: 500px;
+    border-radius: 20px;
+}
+.right-side video{
+    width: 800px;
+    border-radius: 20px;
+}
+.header-image-3{
+    width: 500px;
+    
+}
+.header-image-4{
+    width: 600px;
+    margin-top: 45px;
+    margin-left: 106px;
+    transition: 400ms;
+
+}
+
+p{  
+    font-family: "SUSE", sans-serif;
+    font-size: 16px;
+    margin: 40px;
+}
+
